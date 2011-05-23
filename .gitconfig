@@ -1,0 +1,14 @@
+[user]
+  name = Jon Homan
+  email = jon@jonhoman.com
+
+[color]
+  ui = auto
+
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+[core]
+  editor = /usr/bin/vim
