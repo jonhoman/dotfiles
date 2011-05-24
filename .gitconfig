@@ -10,5 +10,7 @@
   ci = commit
   co = checkout
   br = branch
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+
 [core]
   editor = /usr/bin/vim
