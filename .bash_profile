@@ -7,5 +7,5 @@ function parse_git_branch {
   echo "("${ref#refs/heads/}")"
 }
 
-PS1="\w \$(parse_git_branch)\$ "
+PS1="\w \$(parse_git_branch) \$ "
 
