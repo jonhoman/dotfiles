@@ -27,3 +27,5 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export PATH=/Users/jon/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jon/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jon/.rvm/rubies/ruby-1.9.2-p180/bin:bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin
+
+[[ -s "/Users/jon/.rvm/scripts/rvm" ]] && source "/Users/jon/.rvm/scripts/rvm"  # This loads RVM into a shell session.
