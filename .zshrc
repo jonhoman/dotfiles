@@ -25,6 +25,8 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+alias wip="bundle exec rake cucumber:wip"
+
 # Customize to your needs...
 export PATH=/Users/jon/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jon/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jon/.rvm/rubies/ruby-1.9.2-p180/bin:bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin
 
