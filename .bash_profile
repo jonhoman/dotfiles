@@ -9,3 +9,4 @@ function parse_git_branch {
 
 PS1="\w \$(parse_git_branch) \$ "
 
+. "$HOME/.bashrc"
