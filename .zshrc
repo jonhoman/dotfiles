@@ -7,6 +7,9 @@ export ZSH=$HOME/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 export ZSH_THEME="robbyrussell"
 
+# SQL logging in script/console
+export INLINE_LOGGING=true
+
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
 
@@ -21,7 +24,7 @@ export ZSH_THEME="robbyrussell"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(cap git)
 
 source $ZSH/oh-my-zsh.sh
 
