@@ -36,6 +36,7 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 map <Leader>d :NERDTreeToggle<CR>
+map <Leader>f :NERDTreeFind<CR>
 
 " save all on focus lost
 autocmd BufLeave,FocusLost silent! wall
