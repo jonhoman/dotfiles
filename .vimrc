@@ -10,6 +10,7 @@ set smarttab
 set shiftwidth=2
 set autoindent
 set expandtab
+set ruler
 
 set nocompatible
 set modelines=0

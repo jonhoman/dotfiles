@@ -1,0 +1,1 @@
+PATH=/Users/jhoman/.rvm/gems/ruby-1.9.2-p290-patched/bin:/Users/jhoman/.rvm/gems/ruby-1.9.2-p290-patched@global/bin:/Users/jhoman/.rvm/rubies/ruby-1.9.2-p290-patched/bin:/Users/jhoman/.rvm/bin:bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:~/groupon-git-utils/bin
