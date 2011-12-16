@@ -1,3 +1,4 @@
+source ~/.zsh/aliases
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -27,12 +28,6 @@ export INLINE_LOGGING=true
 plugins=(cap git)
 
 source $ZSH/oh-my-zsh.sh
-
-alias wip="bundle exec rake cucumber:wip"
-alias prepare_tests="bundle exec rake db:migrate:local"
-alias boom="git pull --rebase && git prune && git remote prune origin && git gc && bundle install && bundle exec cap update_local && bundle exec rake assets:all:rebuild && prepare_tests"
-alias groupon="cd ~/dev/groupon"
-alias die_jasmine_die="ps ax | grep jasmine | grep -v grep | head -n1 | awk '{ print $1 }' | xargs kill -9"
 
 # Customize to your needs...
 export PATH=/Users/jhoman/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jhoman/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jhoman/.rvm/rubies/ruby-1.9.2-p180/bin:~/dev/groupon-git-utils/bin:bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin
