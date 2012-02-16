@@ -41,3 +41,4 @@ map <Leader>f :NERDTreeFind<CR>
 
 " save all on focus lost
 autocmd BufLeave,FocusLost silent! wall
+
