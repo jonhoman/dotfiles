@@ -19,6 +19,7 @@ set number
 
 let mapleader = ","
 nnoremap <leader><space> :noh<cr>
+
 set incsearch
 set showmatch
 set hlsearch
@@ -42,3 +43,5 @@ map <Leader>f :NERDTreeFind<CR>
 " save all on focus lost
 autocmd BufLeave,FocusLost silent! wall
 
+set noerrorbells
+set shiftround
