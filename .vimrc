@@ -45,3 +45,12 @@ autocmd BufLeave,FocusLost silent! wall
 
 set noerrorbells
 set shiftround
+
+" vimclojure stuff from vimclojure-easy
+let vimclojure#FuzzyIndent=1
+let vimclojure#HighlightBuiltins=1
+let vimclojure#HighlightContrib=1
+let vimclojure#DynamicHighlighting=1
+let vimclojure#ParenRainbow=1
+let vimclojure#WantNailgun = 1
+let vimclojure#NailgunClient = $HOME . "/dev/vimclojure-easy/lib/vimclojure-nailgun-client/ng"
