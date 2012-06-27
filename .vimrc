@@ -54,3 +54,6 @@ let vimclojure#DynamicHighlighting=1
 let vimclojure#ParenRainbow=1
 let vimclojure#WantNailgun = 1
 let vimclojure#NailgunClient = $HOME . "/dev/vimclojure-easy/lib/vimclojure-nailgun-client/ng"
+
+" no bell
+set noeb vb t_vb=
