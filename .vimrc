@@ -57,3 +57,6 @@ let vimclojure#NailgunClient = $HOME . "/dev/vimclojure-easy/lib/vimclojure-nail
 
 " no bell
 set noeb vb t_vb=
+
+" toggle line number
+map <Leader>n :set invnumber<CR>
