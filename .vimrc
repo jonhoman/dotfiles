@@ -37,8 +37,8 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-map <Leader>d :NERDTreeToggle<CR>
-map <Leader>f :NERDTreeFind<CR>
+map <leader>d :NERDTreeToggle<CR>
+map <leader>f :NERDTreeFind<CR>
 
 " save all on focus lost
 autocmd BufLeave,FocusLost silent! wall
@@ -59,4 +59,7 @@ let vimclojure#NailgunClient = $HOME . "/dev/vimclojure-easy/lib/vimclojure-nail
 set noeb vb t_vb=
 
 " toggle line number
-map <Leader>n :set invnumber<CR>
+map <leader>n :set invnumber<CR>
+
+" open new tab
+map <leader>t :tabe<CR>
