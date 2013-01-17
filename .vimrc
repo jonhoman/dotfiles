@@ -17,6 +17,11 @@ set modelines=0
 
 set number
 
+" enable per-directory .vimrc files
+set exrc
+" disable unsafe commands in local .vimrc files
+set secure
+
 let mapleader = ","
 nnoremap <leader><space> :noh<cr>
 
@@ -47,13 +52,13 @@ set noerrorbells
 set shiftround
 
 " vimclojure stuff from vimclojure-easy
-let vimclojure#FuzzyIndent=1
-let vimclojure#HighlightBuiltins=1
-let vimclojure#HighlightContrib=1
-let vimclojure#DynamicHighlighting=1
-let vimclojure#ParenRainbow=1
-let vimclojure#WantNailgun = 1
-let vimclojure#NailgunClient = $HOME . "/dev/vimclojure-easy/lib/vimclojure-nailgun-client/ng"
+"let vimclojure#FuzzyIndent=1
+"let vimclojure#HighlightBuiltins=1
+"let vimclojure#HighlightContrib=1
+"let vimclojure#DynamicHighlighting=1
+"let vimclojure#ParenRainbow=1
+"let vimclojure#WantNailgun = 1
+"let vimclojure#NailgunClient = $HOME . "/dev/vimclojure-easy/lib/vimclojure-nailgun-client/ng"
 
 " no bell
 set noeb vb t_vb=
