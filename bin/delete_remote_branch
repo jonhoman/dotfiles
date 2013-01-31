@@ -1,0 +1,8 @@
+#!/bin/bash
+
+full_branch_name=$1
+
+remote=${full_branch_name:0:6}
+branch_name=${full_branch_name:7}
+
+git push $remote :$branch_name
