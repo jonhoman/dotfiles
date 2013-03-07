@@ -1,4 +1,5 @@
 --type-set=haml=.haml
---type-add=css=.sass,.scss
+--type-set=css=.sass,.scss
 --type-set=cucumber=.feature
 --type-set=yaml=.yml
+--smart-case

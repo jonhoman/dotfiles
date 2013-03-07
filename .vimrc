@@ -28,6 +28,8 @@ nnoremap <leader><space> :noh<cr>
 set incsearch
 set showmatch
 set hlsearch
+set ignorecase
+set smartcase
 
 inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
