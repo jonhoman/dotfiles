@@ -31,6 +31,6 @@ plugins=(cap git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/Users/jhoman/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jhoman/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jhoman/.rvm/rubies/ruby-1.9.2-p180/bin:~/dev/groupon-git-utils/bin:bin:~/groupon-bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin:/Users/jhoman/bin
+export PATH=/Users/jhoman/.rvm/gems/ruby-1.9.2-p180/bin:/Users/jhoman/.rvm/gems/ruby-1.9.2-p180@global/bin:/Users/jhoman/.rvm/rubies/ruby-1.9.2-p180/bin:~/dev/groupon-git-utils/bin:bin:~/groupon-bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/X11/bin:/Users/jhoman/bin
 
 [[ -s "/Users/jhoman/.rvm/scripts/rvm" ]] && source "/Users/jhoman/.rvm/scripts/rvm"  # This loads RVM into a shell session.
