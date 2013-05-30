@@ -48,7 +48,7 @@ map <leader>d :NERDTreeToggle<CR>
 map <leader>f :NERDTreeFind<CR>
 
 " save all on focus lost
-autocmd BufLeave,FocusLost silent! wall
+" autocmd BufLeave,FocusLost silent! wall
 
 set noerrorbells
 set shiftround
