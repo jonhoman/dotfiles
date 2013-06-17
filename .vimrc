@@ -68,5 +68,5 @@ set noeb vb t_vb=
 " toggle line number
 map <leader>n :set invnumber<CR>
 
-" open new tab
-map <leader>t :tabe<CR>
+" toggle paste setting
+map <leader>p :set invtoggle<CR>
