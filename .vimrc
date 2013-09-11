@@ -70,3 +70,6 @@ map <leader>n :set invnumber<CR>
 
 " toggle paste setting
 map <leader>p :set invtoggle<CR>
+
+" ctrlp ignore list
+set wildignore+=*/log/*,*/runs/*,*/tmp/* 
