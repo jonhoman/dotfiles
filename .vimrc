@@ -61,3 +61,8 @@ map <leader>p :set invtoggle<CR>
 
 " ctrlp ignore list
 set wildignore+=*/log/*,*/runs/*,*/tmp/* 
+
+" alt-ruby.vim mappings
+nnoremap <leader>at :AlternateToggle<cr>
+nnoremap <leader>av :AlternateVerticalSplit<cr>
+nnoremap <leader>as :AlternateHorizontalSplit<cr>
