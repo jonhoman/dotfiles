@@ -3,3 +3,5 @@
 --type-set=cucumber=.feature
 --type-set=yaml=.yml
 --smart-case
+
+--ignore-dir=tmp
