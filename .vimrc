@@ -1,7 +1,5 @@
-filetype off
-
-call pathogen#runtime_append_all_bundles()
-
+execute pathogen#infect()
+colorscheme badwolf
 syntax on
 filetype plugin indent on
 
@@ -17,11 +15,6 @@ set modelines=0
 
 set number
 
-" enable per-directory .vimrc files
-set exrc
-" disable unsafe commands in local .vimrc files
-set secure
-
 let mapleader = ","
 nnoremap <leader><space> :noh<cr>
 
@@ -31,11 +24,8 @@ set hlsearch
 set ignorecase
 set smartcase
 
-inoremap <F1> <ESC>
-nnoremap <F1> <ESC>
-vnoremap <F1> <ESC>
-
-au FocusLost * :wa
+" visual autocomplete for command menu
+set wildmenu
 
 inoremap jj <ESC>
 
@@ -52,12 +42,6 @@ set shiftround
 
 " no bell
 set noeb vb t_vb=
-
-" toggle line number
-map <leader>n :set invnumber<CR>
-
-" toggle paste setting
-map <leader>p :set invtoggle<CR>
 
 " ctrlp ignore list
 set wildignore+=*/log/*,*/runs/*,*/tmp/* 
