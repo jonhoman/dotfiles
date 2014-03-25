@@ -1,8 +1,12 @@
 execute pathogen#infect()
-colorscheme badwolf
 syntax on
 filetype plugin indent on
 
+" colorscheme
+set t_Co=256
+colorscheme grb4
+
+" tab setup
 set tabstop=2
 set smarttab
 set shiftwidth=2
@@ -15,9 +19,13 @@ set modelines=0
 
 set number
 
+" make leader key comma
 let mapleader = ","
+
+" turn highlighting leader space
 nnoremap <leader><space> :noh<cr>
 
+" search setup
 set incsearch
 set showmatch
 set hlsearch
@@ -29,11 +37,13 @@ set wildmenu
 
 inoremap jj <ESC>
 
+" split window management
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" nerd tree mappings
 map <leader>d :NERDTreeToggle<CR>
 map <leader>f :NERDTreeFind<CR>
 
