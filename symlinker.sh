@@ -42,6 +42,10 @@ echo "Creating symlink for .vim/autoload"
 mv ~/.vim/autoload $olddir
 ln -s $dir/vim/autoload ~/.vim/
 
+echo "Creating symlink for .vim/bundle"
+mv ~/.vim/bundle $olddir
+ln -s $dir/vim/bundle ~/.vim/
+
 echo "Creating symlink for bin"
 mv ~/bin $olddir
 ln -s $dir/bin ~
