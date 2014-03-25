@@ -12,6 +12,9 @@ files="ackrc bash_profile gemrc gitconfig gvimrc irbrc profile rvmrc tmux.conf v
 
 ##########
 
+echo "Removing dotfiles_old"
+rm -r $olddir
+
 # create dotfiles_old in homedir
 echo "Creating $olddir for backup of any existing dotfiles in ~"
 mkdir -p $olddir
@@ -25,16 +28,20 @@ echo "...done"
 # move any existing dotfiles in homedir to dotfiles_old directory, then create symlinks 
 for file in $files; do
     echo "Moving any existing dotfiles from ~ to $olddir"
-    mv ~/.$file ~/dotfiles_old/
+    mv ~/.$file $olddir
     echo "Creating symlink to $file in home directory."
     ln -s $dir/$file ~/.$file
 done
 
 # special cases
 echo "Creating symlink for .vim/colors"
-mv ~/.vim/colors ~/dotfiles_old/
+mv ~/.vim/colors $olddir
 ln -s $dir/vim/colors ~/.vim/
 
+echo "Creating symlink for .vim/autoload"
+mv ~/.vim/autoload $olddir
+ln -s $dir/vim/autoload ~/.vim/
+
 echo "Creating symlink for bin"
-mv ~/bin ~/dotfiles_old/
+mv ~/bin $olddir
 ln -s $dir/bin ~
