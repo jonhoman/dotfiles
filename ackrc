@@ -6,3 +6,5 @@
 
 --ignore-dir=tmp
 --ignore-dir=log
+
+--ignore-file=is:tags
