@@ -54,7 +54,7 @@ set shiftround
 set noeb vb t_vb=
 
 " ctrlp ignore list
-set wildignore+=*/log/*,*/runs/*,*/tmp/* 
+set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/packages/*
 
 " alt-ruby.vim mappings
 nnoremap <leader>at :AlternateToggle<cr>

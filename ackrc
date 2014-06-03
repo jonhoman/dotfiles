@@ -6,5 +6,8 @@
 
 --ignore-dir=tmp
 --ignore-dir=log
+--ignore-dir=logs
+--ignore-dir=.idea
+--ignore-dir=packages
 
 --ignore-file=is:tags
