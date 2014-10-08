@@ -9,5 +9,6 @@
 --ignore-dir=logs
 --ignore-dir=.idea
 --ignore-dir=packages
+--ignore-dir=target
 
 --ignore-file=is:tags
