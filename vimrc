@@ -55,8 +55,11 @@ set noeb vb t_vb=
 
 " ctrlp ignore list
 set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/packages/*
+" ctrlp no max number of files
+let g:ctrlp_max_files = 0
 
 " alt-ruby.vim mappings
 nnoremap <leader>at :AlternateToggle<cr>
 nnoremap <leader>av :AlternateVerticalSplit<cr>
 nnoremap <leader>as :AlternateHorizontalSplit<cr>
+
