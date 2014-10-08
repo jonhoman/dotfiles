@@ -1,2 +1,3 @@
 *.log
 .zsh/aliases
+bin/start_autossh
