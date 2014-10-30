@@ -12,6 +12,7 @@
   br = branch
   hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
   cache = diff --cached
+  ammend = commit -a --amend --no-edit
 
 [core]
   editor = /usr/bin/vim
