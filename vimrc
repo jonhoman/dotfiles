@@ -4,7 +4,7 @@ filetype plugin indent on
 
 " colorscheme
 set t_Co=256
-colorscheme Tomorrow-Night
+colorscheme badwolf
 
 " tab setup
 set tabstop=2
