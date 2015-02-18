@@ -1,5 +1,5 @@
-source ~/.zsh/aliases
-source ~/.zsh/work
+#source ~/.zsh/aliases
+#source ~/.zsh/work
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.oh-my-zsh
 
@@ -26,7 +26,7 @@ export INLINE_LOGGING=true
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(cap git)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
