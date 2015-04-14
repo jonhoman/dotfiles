@@ -31,9 +31,13 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/X11/bin:/Users/jhoman/bin
+export PATH=bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:/usr/X11/bin:/Users/jhoman/bin:/Users/jhoman/.chefdk/gem/ruby/2.1.0/bin:/usr/local/heroku/bin
 
 function jcurl() { curl -s -S $@ | python -m json.tool; }
 
 # init rbenv
 eval "$(rbenv init -)"
+
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/jhoman/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1
