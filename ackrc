@@ -10,5 +10,6 @@
 --ignore-dir=.idea
 --ignore-dir=packages
 --ignore-dir=target
+--ignore-dir=coverage
 
 --ignore-file=is:tags
