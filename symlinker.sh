@@ -8,7 +8,7 @@
 
 dir=~/dev/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="ackrc bash_profile gemrc gitconfig gvimrc irbrc profile tmux.conf vimrc zshrc"    # list of files/folders to symlink in homedir
+files="ackrc bash_profile gemrc gitconfig gvimrc irbrc profile rspec tmux.conf vimrc zshrc"    # list of files/folders to symlink in homedir
 
 ##########
 
