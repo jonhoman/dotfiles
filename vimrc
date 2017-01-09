@@ -54,7 +54,7 @@ set shiftround
 set noeb vb t_vb=
 
 " ctrlp ignore list
-set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/packages/*
+set wildignore+=*/log/*,*/runs/*,*/tmp/*,*/packages/*,*/bin/*,*/coverage/*,*/public/*
 " ctrlp no max number of files
 let g:ctrlp_max_files = 0
 
