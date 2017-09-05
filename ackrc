@@ -12,5 +12,6 @@
 --ignore-dir=packages
 --ignore-dir=target
 --ignore-dir=coverage
+--ignore-dir=node_modules
 
 --ignore-file=is:tags
