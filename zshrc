@@ -18,6 +18,8 @@ export PATH=bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin:
 
 function jcurl() { curl -s -S $@ | python -m json.tool; }
 
+# heroku autocomplete setup
+HEROKU_AC_ZSH_SETUP_PATH=/Users/jhoman/Library/Caches/heroku/autocomplete/zsh_setup && test -f $HEROKU_AC_ZSH_SETUP_PATH && source $HEROKU_AC_ZSH_SETUP_PATH;
+
 # init rbenv
 eval "$(rbenv init -)"
-
