@@ -35,8 +35,6 @@ set smartcase
 " visual autocomplete for command menu
 set wildmenu
 
-inoremap jj <ESC>
-
 " split window management
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
