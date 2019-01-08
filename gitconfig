@@ -1,6 +1,7 @@
 [user]
   name = Jon Homan
-  email = jhoman@bellycard.com
+  email = jhoman@hatchloyalty.com
+	signingkey = EDF6E425C6C7728F
 
 [color]
   ui = auto
@@ -18,3 +19,5 @@
   editor = /usr/bin/vim
 [push]
 	default = simple
+[commit]
+	gpgsign = true
